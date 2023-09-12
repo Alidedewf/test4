@@ -264,12 +264,16 @@ footer {
   color: white;
 }
 
+.footer-button {
+  text-align: right;
+  margin-right: 170px;
+}
+
 .footer-button p {
   margin-top: 23px;
   width: 199.25px;
   height: 15px;
   color: #9698a6;
-  text-align: center;
   font-size: 13px;
   font-style: normal;
   font-weight: 300;
