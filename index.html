@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./index.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -13,14 +17,17 @@
           <div class="header-flex">
             <div class="header-logo">
               <img src="./img/logo 1.svg" alt="" />
+              <button type="button" class="hamburger" id="hamburger">
+                <i class="menuIcon material-icons">menu</i>
+              </button>
             </div>
-            <div class="header-nav">
-              <a href="">Home</a>
-              <a href="">About</a>
-              <a href="">Contact</a>
-              <a href="">Blog</a>
-              <a href="">Careers</a>
-            </div>
+            <ul class="header-nav">
+              <a class="menuItem" href="">Home</a>
+              <a class="menuItem" href="">About</a>
+              <a class="menuItem" href="">Contact</a>
+              <a class="menuItem" href="">Blog</a>
+              <a class="menuItem" href="">Careers</a>
+            </ul>
             <div class="header-button">
               <button>Reguest Invite</button>
             </div>
@@ -193,5 +200,10 @@
         </div>
       </div>
     </footer>
+    <!-- <button type="button" class="hamburger" id="hamburger">
+      <i class="menuIcon material-icons">menu</i>
+      <i class="closeIcon material-icons">close</i>
+    </button> -->
   </body>
+  <script src="./index.js"></script>
 </html>
