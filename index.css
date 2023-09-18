@@ -279,7 +279,7 @@ footer {
   font-weight: 300;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 420px) {
   header {
     position: fixed;
     background-color: white;
@@ -370,9 +370,14 @@ footer {
     font-size: 20px;
   }
 
-  .feature-text {
-    margin-left: 63px;
+  .feature {
+    background-color: #f3f4f6;
+    width: 780px;
   }
+
+  /* .feature-text {
+    margin-left: 63px;
+  } */
 
   .feature-text p {
     color: #9698a6;
@@ -389,7 +394,7 @@ footer {
   }
 
   .cards {
-    margin-left: 100px;
+    margin-left: 60px;
     display: block;
   }
 
@@ -407,6 +412,10 @@ footer {
     margin-bottom: 78px;
   }
 
+  .articles {
+    width: 730px;
+  }
+
   .articles-cards {
     display: block;
   }
@@ -421,6 +430,10 @@ footer {
 
   .articles-card h3 {
     width: 100%;
+  }
+
+  footer {
+    width: 783px;
   }
 
   .footer-text {
