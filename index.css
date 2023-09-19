@@ -90,10 +90,11 @@ body {
 
 .feature {
   background-color: #f3f4f6;
+  padding-bottom: 90px;
 }
 
 .feature-wrapper {
-  margin: 165px;
+  margin-left: 135px;
 }
 
 .feature-inner {
@@ -279,6 +280,10 @@ footer {
   font-weight: 300;
 }
 
+.hamburger {
+  display: none;
+}
+
 @media (max-width: 420px) {
   header {
     position: fixed;
@@ -300,6 +305,7 @@ footer {
   }
 
   .hamburger {
+    display: block;
     position: fixed;
     z-index: 100;
     top: 24px;
@@ -373,41 +379,40 @@ footer {
   .feature {
     background-color: #f3f4f6;
     width: 780px;
+    margin-top: 48px;
   }
-
-  /* .feature-text {
-    margin-left: 63px;
-  } */
 
   .feature-text p {
     color: #9698a6;
-    font-size: 17px;
-    width: 380px;
+    font-size: 23px;
+    width: 470px;
     font-weight: 300;
     line-height: 1.5rem;
     text-align: center;
   }
 
   .feature-text h2 {
-    margin-left: 60px;
-    font-size: 24px;
+    font-size: 43px;
   }
 
   .cards {
-    margin-left: 60px;
+    margin-left: 105px;
     display: block;
   }
 
   .card img {
-    margin-left: 115px;
+    margin-left: 85px;
+    width: 25%;
   }
 
   .card h3 {
-    margin-left: 65px;
+    margin-left: 14px;
+    font-size: 40px;
   }
 
   .card p {
-    margin-left: 35px;
+    width: 330px;
+    font-size: 20px;
     text-align: center;
     margin-bottom: 78px;
   }
@@ -459,5 +464,19 @@ footer {
 
   .footer-button p {
     width: 100%;
+  }
+}
+
+@media (min-width: 420px) {
+  footer {
+    width: 1495px;
+  }
+
+  header {
+    width: 1492px;
+  }
+
+  .feature {
+    width: 1492px;
   }
 }
